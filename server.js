@@ -11,6 +11,7 @@ const http  = require('http');
 const https = require('https');
 const fs    = require('fs');
 const path  = require('path');
+require('dotenv').config();
 
 // ── Chave do Groq ──────────────────────────────────────────
 const GROQ_KEY = process.env.GROQ_API_KEY;

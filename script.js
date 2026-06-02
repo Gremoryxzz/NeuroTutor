@@ -5,12 +5,9 @@
    ============================================================ */
 
 // ── CONFIG ─────────────────────────────────────────────────
-// Rodando com server.js (node server.js) → usa o proxy local.
-// Rodando dentro do Claude.ai             → usa a API direta.
-const IS_LOCAL   = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-const API_URL    = IS_LOCAL
-  ? 'http://localhost:3000/api/claude'           // proxy Node.js — sem CORS
-  : 'https://api.anthropic.com/v1/messages';     // Claude.ai injeta a key
+// Sempre usa o proxy /api/claude — funciona localmente (node server.js)
+// e no Vercel (Serverless Function em /api/claude.js).
+const API_URL    = '/api/claude';
 const MODEL      = 'claude-sonnet-4-20250514';
 const MAX_TOKENS = 1500;
 
