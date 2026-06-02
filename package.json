@@ -1,0 +1,25 @@
+{
+  "name": "neurotutor",
+  "version": "1.0.0",
+  "description": "Tutor de estudos inteligente com IA. Faça perguntas, envie PDFs, gere quizzes, flashcards e mapas mentais — tudo no navegador.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gremoryxzz/NeuroTutor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Gremoryxzz/NeuroTutor/issues"
+  },
+  "homepage": "https://github.com/Gremoryxzz/NeuroTutor#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
