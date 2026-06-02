@@ -5,8 +5,7 @@
    ============================================================ */
 
 // ── CONFIG ─────────────────────────────────────────────────
-// Sempre usa o proxy /api/claude — funciona localmente (node server.js)
-// e no Vercel (Serverless Function em /api/claude.js).
+// Usa sempre o proxy /api/claude — funciona local (node server.js) e no Vercel.
 const API_URL    = '/api/claude';
 const MODEL      = 'claude-sonnet-4-20250514';
 const MAX_TOKENS = 1500;
