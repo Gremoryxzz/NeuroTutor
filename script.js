@@ -6,7 +6,7 @@
 
 // ── CONFIG ─────────────────────────────────────────────────
 // /api/claude → proxy Groq (funciona local e no Vercel)
-const API_URL = '/api/claude';
+const API_URL    = '/api/claude';
 const MODEL      = 'llama-3.3-70b-versatile';
 const MAX_TOKENS = 1500;
 
